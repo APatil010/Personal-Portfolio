@@ -1,0 +1,21 @@
+.NavigationBar {
+    display: grid;
+    padding: 1em 0;
+    grid-template-columns: 1fr;
+
+    & .Navigation {
+        justify-self: end;
+    }
+
+    & a, & a:active, & a:hover, & a:link {
+        padding: 0 1em;
+        text-decoration: none;
+        color: black;
+    }
+
+    & hr {
+        width: 100%;
+        margin: 2em 0;
+    }
+}
+

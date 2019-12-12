@@ -1,0 +1,28 @@
+.faqsGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+.question, 
+.answer {
+    grid-column: 2 / 3;
+    padding: 1em;
+}
+
+.answer {
+    text-align: justify;
+}
+.separator {
+    display: flex;
+    grid-column: 2 / 3;
+    justify-self: center;
+}
+
+.circle {
+    width: 0.5em;
+    height: 0.5em;
+    background-color: black;
+    margin: 0.25em;
+    border-radius: 50%;
+}

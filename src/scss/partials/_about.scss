@@ -1,0 +1,59 @@
+.aboutGrid {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-row-gap: 1em;
+}
+
+.aboutImage, .aboutText, .aboutStatus {
+    grid-column: 2 / 3;
+    justify-self: center;
+}
+.skills {
+    grid-column: 2 / 3;
+}
+
+.aboutImage > img {
+    width: 169px;
+    height: 218px;
+    border-radius: 10%;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.status {
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 5px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skillHeader {
+    text-align: center;
+    grid-column: 1 / 3;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-content: center;
+}
+
+.skill > * {
+    margin: 0.75em;
+}
+
+.progressBar {
+    height: 1em;
+    background-color: gray;
+}
+
+.actualProgress {
+    height: 1em;
+    background-color: black;
+}
