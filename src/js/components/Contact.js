@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCodepen, faLinkedin, faFacebook, faTwitter, faInstagram, faGithub, faBitbucket } from '@fortawesome/free-brands-svg-icons';
+import { faCodepen, faLinkedin, faFacebook, faTwitter, faInstagram, faGithub, faBitbucket, faMedium } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 class Contact extends React.Component {
@@ -42,6 +42,9 @@ class Contact extends React.Component {
                     </a>
                     <a href="https://github.com/apatil010" target="_blank">
                         <FontAwesomeIcon icon={faGithub} size="3x" />
+                    </a>
+                    <a href="https://medium.com/techie-js" target="_blank">
+                        <FontAwesomeIcon icon={faMedium} size="3x" />
                     </a>
                     </div>
                 </div>
